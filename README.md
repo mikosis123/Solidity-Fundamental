@@ -1,86 +1,124 @@
-# Blockchain Fundamentals & Deep Dive into Solidity Programming
+# Blockchain Fundamentals & Solidity Programming
+
+## Table of Contents
+<details>
+  <summary>Module 1: Introduction to Blockchain</summary>
+  <ul>
+    <li><a href="#what-is-blockchain">What is Blockchain?</a></li>
+    <li><a href="#how-blockchain-works">How Blockchain Works</a></li>
+    <li><a href="#types-of-blockchains">Types of Blockchains</a></li>
+    <li><a href="#smart-contracts--decentralized-applications-dapps">Smart Contracts & Decentralized Applications (DApps)</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Module 2: Deep Introduction to Solidity</summary>
+  <ul>
+    <li><a href="#basics-of-solidity">Basics of Solidity</a></li>
+    <li><a href="#smart-contract-development">Smart Contract Development</a></li>
+    <li><a href="#advanced-solidity-concepts">Advanced Solidity Concepts</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Module 3: Building & Deploying Solidity Projects</summary>
+  <ul>
+    <li><a href="#module-3-building--deploying-solidity-projects">Building & Deploying Solidity Projects</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Module 4: Real-World Applications & Case Studies</summary>
+  <ul>
+    <li><a href="#module-4-real-world-applications--case-studies">Real-World Applications & Case Studies</a></li>
+  </ul>
+</details>
+
+---
 
 ## Module 1: Introduction to Blockchain
+<details>
+  <summary>What is Blockchain?</summary>
+  <ul>
+    <li>History & Evolution</li>
+    <li>Key Characteristics (Decentralization, Immutability, Transparency)</li>
+  </ul>
+</details>
 
-### 1. What is Blockchain?
+<details>
+  <summary>How Blockchain Works</summary>
+  <ul>
+    <li>Blocks, Transactions, and Consensus Mechanisms</li>
+    <li>Proof of Work vs. Proof of Stake</li>
+  </ul>
+</details>
 
-- Key Characteristics (Decentralization, Immutability, Transparency)
+<details>
+  <summary>Types of Blockchains</summary>
+  <ul>
+    <li>Public vs. Private vs. Consortium</li>
+    <li>Examples: Bitcoin, Ethereum, Hyperledger</li>
+  </ul>
+</details>
 
-### 2. How Blockchain Works
-- Blocks, Transactions, and Consensus Mechanisms
-- Proof of Work vs. Proof of Stake
-
-### 3. Types of Blockchains
-- Public vs. Private vs. Consortium
-- Examples: Bitcoin, Ethereum, Hyperledger
-
-### 4. Smart Contracts & Decentralized Applications (DApps)
-- Definition & Use Cases
-- How Smart Contracts Work on Ethereum
+<details>
+  <summary>Smart Contracts & Decentralized Applications (DApps)</summary>
+  <ul>
+    <li>Definition & Use Cases</li>
+    <li>How Smart Contracts Work on Ethereum</li>
+  </ul>
+</details>
 
 ---
 
 ## Module 2: Deep Introduction to Solidity
+<details>
+  <summary>Basics of Solidity</summary>
+  <ul>
+    <li>Introduction to Solidity</li>
+    <li>Setting Up a Solidity Development Environment (Remix IDE, Hardhat, Foundry)</li>
+  </ul>
+</details>
 
-### 📌 Basics of Solidity
+<details>
+  <summary>Smart Contract Development</summary>
+  <ul>
+    <li>Writing Your First Smart Contract</li>
+    <li>Deploying with Remix IDE</li>
+  </ul>
+</details>
 
-### 1. Introduction to Solidity
-- What is Solidity?
-- Setting Up a Solidity Development Environment (Remix IDE, Hardhat, Foundry)
-
-### 2. Solidity Syntax & Structure
-- Data Types, Variables, and Functions
-- State vs. Local Variables
-
-### 3. Control Structures & Logic
-- Conditionals (if/else)
-- Loops & Error Handling
-
-### 📌 Smart Contract Development
-
-### 4. Writing Your First Smart Contract
-- Deploying with Remix IDE
-- Interacting with a Contract
-
-### 5. Functions & Modifiers
-- View, Pure, and Payable Functions
-- Custom Modifiers for Security
-
-### 6. Events & Logging
-- Emitting and Listening to Events
-
-### 7. Error Handling & Best Practices
-- Require, Assert, and Revert
-- Gas Optimization Techniques
-
-### 📌 Advanced Solidity Concepts
-
-### 8. Storage, Memory, and Gas Efficiency
-- Optimizing Smart Contracts
-
-### 9. Inheritance & Interfaces
-- Contract Inheritance
-- Abstract Contracts & Interfaces
-
-### 10. Working with External Calls & Oracles
-- Calling Other Contracts
-- Integrating Off-Chain Data (Chainlink)
+<details>
+  <summary>Advanced Solidity Concepts</summary>
+  <ul>
+    <li>Storage, Memory, and Gas Efficiency</li>
+    <li>Inheritance & Interfaces</li>
+  </ul>
+</details>
 
 ---
 
 ## Module 3: Building & Deploying Solidity Projects
-
-### 1. Setting Up a Solidity Project (Hardhat & Foundry)
-### 2. Testing Solidity Contracts (Chai & Mocha)
-### 3. Deploying to Ethereum (Testnets & Mainnet)
-### 4. Interacting with Smart Contracts using Web3.js & Ethers.js
-### 5. Security Best Practices & Audit Considerations
+<details>
+  <summary>Topics</summary>
+  <ul>
+    <li>Setting Up a Solidity Project (Hardhat & Foundry)</li>
+    <li>Testing Solidity Contracts (Chai & Mocha)</li>
+    <li>Deploying to Ethereum (Testnets & Mainnet)</li>
+    <li>Interacting with Smart Contracts using Web3.js & Ethers.js</li>
+    <li>Security Best Practices & Audit Considerations</li>
+  </ul>
+</details>
 
 ---
 
 ## Module 4: Real-World Applications & Case Studies
-
-### 1. Building a Token (ERC-20, ERC-721, ERC-1155)
-### 2. Decentralized Finance (DeFi) Protocols
-### 3. NFT & Gaming Smart Contracts
-### 4. Final Project: Develop & Deploy a Smart Contract on a Testnet
+<details>
+  <summary>Topics</summary>
+  <ul>
+    <li>Building a Token (ERC-20, ERC-721, ERC-1155)</li>
+    <li>Decentralized Finance (DeFi) Protocols</li>
+    <li>NFT & Gaming Smart Contracts</li>
+    <li>Final Project: Develop & Deploy a Smart Contract on a Testnet</li>
+  </ul>
+</details>
