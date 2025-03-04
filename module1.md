@@ -75,6 +75,7 @@
 <summary><strong>Private Key, Public Key, and Wallet Address</strong></summary>
 
 ### **🔹 Private Key**
+
 - A randomly generated 256-bit number that controls blockchain funds.
 - **Used for:** Signing transactions & proving ownership.
 - **Must be kept secret** – If stolen, funds are lost forever.
@@ -84,6 +85,7 @@
   ```
 
 ### **🔹 Public Key**
+
 - Derived from the private key using **Elliptic Curve Cryptography (ECC)**.
 - **Used for:** Verifying digital signatures.
 - **Publicly visible**, but cannot be used to control funds.
@@ -93,6 +95,7 @@
   ```
 
 ### **🔹 Wallet Address**
+
 - Derived from the **public key** using **Keccak-256 hashing**.
 - The last **20 bytes** of the hash form the address.
 - **Example Wallet Address:**
@@ -100,16 +103,15 @@
   0x742d35Cc6634C0532925a3b844Bc454e4438f44e
   ```
 
-| Feature        | Private Key | Public Key | Wallet Address |
-|---------------|------------|------------|----------------|
-| Secret?       | Yes        | No         | No (Public)    |
-| Used For      | Signing    | Verification | Receiving Funds |
-| Length        | 64 hex chars | 128 hex chars | 40 hex chars |
-| Derivation    | Random     | From Private Key | From Public Key |
+| Feature    | Private Key  | Public Key       | Wallet Address  |
+| ---------- | ------------ | ---------------- | --------------- |
+| Secret?    | Yes          | No               | No (Public)     |
+| Used For   | Signing      | Verification     | Receiving Funds |
+| Length     | 64 hex chars | 128 hex chars    | 40 hex chars    |
+| Derivation | Random       | From Private Key | From Public Key |
 
 </details>
 
 ---
 
-[Back to Main Index](index.md)
-
+🔙 [Back to Main Index](index.md)

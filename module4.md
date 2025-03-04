@@ -1,4 +1,4 @@
-# module 4:  Introduction to Solidity & Smart Contracts
+# Module 4: Introduction to Solidity & Smart Contracts
 
 <details>
 <summary><strong> Declaring Variables and Functions in Solidity</strong></summary>
@@ -10,6 +10,7 @@
 - 🚀 **Writing a basic Solidity function** and deploying it in Remix
 
 **💡 Interactive Task:**
+
 - Use [Remix IDE](https://remix.ethereum.org/) to write and test a simple Solidity contract.
 
 </details>
@@ -23,6 +24,7 @@
 - 🛠 **Debugging scope-related issues** in Solidity.
 
 **💡 Interactive Task:**
+
 - Modify a Solidity contract to include both global and local variables, then analyze their scope.
 
 </details>
@@ -36,7 +38,8 @@
 - 📝 **Hands-on practice:** Writing functions with different visibility levels.
 
 **💡 Interactive Task:**
-- Analyze a real-world Solidity contract on [Remix IDE](https://remix.ethereum.org/)  and [Etherscan](https://etherscan.io/)  identify visibility specifiers used.
+
+- Analyze a real-world Solidity contract on [Remix IDE](https://remix.ethereum.org/) and [Etherscan](https://etherscan.io/) identify visibility specifiers used.
 
 </details>
 
@@ -53,4 +56,4 @@
 
 ---
 
-[Back to Main Index](index.md)
+🔙 [Back to Main Index](index.md)

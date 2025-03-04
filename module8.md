@@ -11,6 +11,7 @@
   - **Multiple Inheritance:** A contract inherits from multiple base contracts.
   - **Hierarchical Inheritance:** Multiple contracts inherit from a single base contract.
 - 🔥 **Example:**
+
   ```solidity
   contract Parent {
       uint public value;
@@ -18,13 +19,14 @@
           value = _value;
       }
   }
-  
+
   contract Child is Parent {
       function getValue() public view returns (uint) {
           return value;
       }
   }
   ```
+
 - 💡 **Interactive Task:**
   - Implement multiple inheritance and resolve method conflicts.
 
@@ -37,6 +39,7 @@
   - Solidity allows passing parameters from child to parent constructors.
   - The `is` keyword is used to inherit contracts and initialize parent constructor.
 - 🔥 **Example:**
+
   ```solidity
   contract Parent {
       uint public value;
@@ -44,13 +47,14 @@
           value = _value;
       }
   }
-  
+
   contract Child is Parent(100) {
       function getValue() public view returns (uint) {
           return value;
       }
   }
   ```
+
 - 💡 **Interactive Task:**
   - Implement an inheritance model where multiple child contracts pass different constructor parameters to a single parent contract.
 
@@ -113,4 +117,4 @@
 
 ---
 
-[Back to Main Index](index.md)
+🔙 [Back to Main Index](index.md)
