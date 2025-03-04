@@ -1,4 +1,4 @@
-## **Module 6: Conclusion & Final project**
+## **Module 9: Conclusion & Final project**
 
 - Review of key concepts
 - Best practices in Solidity

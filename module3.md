@@ -1,4 +1,4 @@
-# **Lesson: Setting Up Remix, MetaMask & Exploring Etherscan**
+# **module 3: Setting Up Remix, MetaMask & Exploring Etherscan**
 
 ---
 
