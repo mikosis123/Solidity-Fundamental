@@ -12,76 +12,36 @@ Remix is an online IDE for developing, deploying, and testing Ethereum smart con
 2. The IDE opens with a default workspace containing sample Solidity contracts.
 3. Explore the **File Explorer**, **Solidity Compiler**, and **Deploy & Run Transactions** tabs.
 
-### **Creating Your First Smart Contract**
-1. Click on the `+` icon in the file explorer.
-2. Name the file `MyContract.sol`.
-3. Copy and paste the following Solidity code:
-   
-   ```solidity
-   // SPDX-License-Identifier: MIT
-   pragma solidity ^0.8.20;
+### Writing Your First Smart Contract
 
-   contract HelloWorld {
-       string public message = "Hello, Blockchain!";
-   }
-   ```
-4. Click the **Solidity Compiler** tab and select **0.8.20**.
-5. Click **Compile MyContract.sol**.
+- **Hello World Smart Contract:**
+  - Writing a simple contract that stores and retrieves a message.
+  - Understanding `msg.sender`, `public`, and `state variables`.
+- **Deploying a Smart Contract:**
+  - Using **Remix IDE** (a web-based Solidity editor).
+  - Using **Foundry** (a modern toolchain for Ethereum development).
 
----
+### Example: Teacher Incorporating an External Website
 
-## **2. Installing & Setting Up MetaMask**
+Imagine a teacher demonstrating how to fetch Ethereum gas prices dynamically from an external website like [Etherscan](https://etherscan.io/gastracker):
 
-### **What is MetaMask?**
-MetaMask is a browser extension and mobile app that allows users to interact with the Ethereum blockchain.
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
 
-### **Installing MetaMask**
-1. Go to [MetaMask.io](https://metamask.io/).
-2. Click **Download** and select your browser (Chrome, Firefox, Edge, or Brave).
-3. Add the extension and click on the **MetaMask icon** in your browser.
+contract GasPriceChecker {
+    string public infoSource = "Etherscan Gas Tracker";
+    string public url = "https://etherscan.io/gastracker";
 
-### **Setting Up Your Wallet**
-1. Click **Get Started** and select **Create a Wallet**.
-2. Set a strong password.
-3. **Secure Your Secret Recovery Phrase**:
-   - Write down the 12-word phrase and store it safely.
-   - Never share it with anyone!
-4. Confirm the phrase and complete the setup.
+    function getGasPriceInfo() public view returns (string memory, string memory) {
+        return (infoSource, url);
+    }
+}
+```
 
-### **Connecting MetaMask to Remix**
-1. Open Remix and go to the **Deploy & Run Transactions** tab.
-2. Under **Environment**, select **Injected Provider - MetaMask**.
-3. MetaMask will prompt you to **connect your wallet**.
-4. Approve the connection and choose an account.
+This simple contract stores a reference to Etherscan's gas tracker. In a classroom setting, the teacher could explain how external sources help developers make informed decisions about gas fees when deploying or executing contracts.
 
 ---
-
-## **3. Exploring Etherscan**
-
-### **What is Etherscan?**
-Etherscan is a blockchain explorer that allows users to track Ethereum transactions, smart contracts, and wallet balances.
-
-### **Exploring Transactions on Etherscan**
-1. Open [Etherscan](https://etherscan.io/).
-2. Copy and paste your **MetaMask wallet address** into the search bar.
-3. View your **balance, transaction history, and smart contract interactions**.
-
-### **Tracking a Transaction**
-1. Send a small amount of ETH from MetaMask to another address.
-2. Click on the **transaction hash** in MetaMask after sending.
-3. This opens the **Etherscan transaction details**, showing:
-   - **From & To addresses**
-   - **Gas fee & Transaction cost**
-   - **Block confirmation status**
-
----
-
-## **4. Summary & Next Steps**
-✅ **Remix** helps you write and test smart contracts.
-✅ **MetaMask** allows you to interact with the blockchain.
-✅ **Etherscan** helps you track transactions and verify smart contracts.
-
-### **Next Lesson: Deploying Smart Contracts on Testnets!** 🚀
 
 [Back to Main Index](index.md)
 
