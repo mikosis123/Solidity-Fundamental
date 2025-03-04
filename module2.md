@@ -50,7 +50,7 @@
   - Using **Remix IDE** (a web-based Solidity editor).
   - Using **Foundry** (a modern toolchain for Ethereum development).
 
-### Example: Teacher Incorporating an External Website
+
 ---
 
 [Back to Main Index](index.md)
