@@ -1,5 +1,3 @@
-
-
 ## ** module 7 :Advanced Solidity Concepts: Inheritance, Typing & Encoding**
 
 ---
@@ -9,10 +7,12 @@
 
 - 🏗 **Definition:** Solidity supports contract inheritance, allowing contracts to extend functionalities of other contracts.
 - 🔄 **Single & Multi-level Inheritance:**
+
   - **Single Inheritance:** A contract inherits from one base contract.
   - **Multi-level Inheritance:** A contract inherits from another that has already inherited a base contract.
 
 - 🔥 **Example:**
+
   ```solidity
   contract Parent {
       uint public value;
@@ -20,7 +20,7 @@
           value = _value;
       }
   }
-  
+
   contract Child is Parent {
       function getValue() public view returns (uint) {
           return value;
@@ -37,10 +37,12 @@
 <summary><strong>Inheritance with Constructor Parameters</strong></summary>
 
 - 🎯 **Passing Parameters to Parent Constructors:**
+
   - Constructors from parent contracts can be called in the child contract.
   - Solidity supports parameterized inheritance for initializing state variables.
 
 - 🔥 **Example:**
+
   ```solidity
   contract Parent {
       uint public value;
@@ -48,7 +50,7 @@
           value = _value;
       }
   }
-  
+
   contract Child is Parent(100) {
       function getValue() public view returns (uint) {
           return value;
@@ -65,10 +67,12 @@
 <summary><strong>Type Conversion and Type Casting in Solidity</strong></summary>
 
 - 🔄 **Implicit & Explicit Conversion:**
+
   - **Implicit:** Automatically converts smaller types to larger types (e.g., `uint8` to `uint256`).
   - **Explicit:** Requires manual conversion between types.
 
 - 🔥 **Example:**
+
   ```solidity
   uint8 smallNumber = 10;
   uint256 largeNumber = smallNumber; // Implicit conversion
@@ -87,6 +91,7 @@
 - 📌 **Alternative:** Use fixed-point math by multiplying values by a scaling factor.
 
 - 🔥 **Example:**
+
   ```solidity
   contract FixedPointMath {
       uint256 public scale = 10**18;
@@ -109,6 +114,7 @@
 - 🔁 **ABI Decoding:** Converts bytes back into Solidity data types.
 
 - 🔥 **Example:**
+
   ```solidity
   contract HashingExample {
       function hashData(string memory data) public pure returns (bytes32) {
@@ -124,4 +130,4 @@
 
 ---
 
-[Back to Main Index](index.md)
+🔙 [Back to Main Index](index.md)

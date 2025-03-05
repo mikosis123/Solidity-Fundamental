@@ -1,4 +1,4 @@
-# module 4:  Introduction to Solidity & Smart Contracts
+# Module 4: Introduction to Solidity & Smart Contracts
 
 <details>
 <summary><strong> Declaring Variables and Functions in Solidity</strong></summary>
@@ -105,6 +105,7 @@ This example keeps it simple while explaining function types in Solidity. 🚀
 
 
 **💡 Interactive Task:**
+
 - Use [Remix IDE](https://remix.ethereum.org/) to write and test a simple Solidity contract.
 
 </details>
@@ -136,12 +137,20 @@ This example keeps it simple while explaining function types in Solidity. 🚀
 - 🏛 **Global, Local, and State Variables** in Solidity.
 - 🧐 **Examples of scope limitations** and best practices.
 - 🛠 **Debugging scope-related issues** in Solidity.
+
+**💡 Interactive Task:**
+- Modify a Solidity contract to include both global and local variables, then analyze their scope.
+
+</details>
+
+<details>
+<summary><strong> How Visibility Specifiers Work</strong></summary>
+
 - 👁 **Understanding Solidity visibility specifiers**: `public`, `private`, `internal`, and `external`.
 - ⚠ **Security considerations** when defining visibility.
 
-### **Interactive Task:**
-- Modify a Solidity contract to include both global and local variables, then analyze their scope.
-- Analyze a real-world Solidity contract on [Remix IDE](https://remix.ethereum.org/) and [Etherscan](https://etherscan.io/) to identify visibility specifiers used.
+**💡 Interactive Task:**
+- Analyze a real-world Solidity contract on [Remix IDE](https://remix.ethereum.org/)  and [Etherscan](https://etherscan.io/)  identify visibility specifiers used.
 
 </details>
 
@@ -151,4 +160,4 @@ This example keeps it simple while explaining function types in Solidity. 🚀
 
 ---
 
-[Back to Main Index](index.md)
+🔙 [Back to Main Index](index.md)

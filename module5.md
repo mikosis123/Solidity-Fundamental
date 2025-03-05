@@ -1,8 +1,6 @@
-# ** module 5: Contract Structure & State Management**
+# Module 5: Contract Structure & State Management
 
 ---
-
-
 
 <details>
 <summary><strong>What are Constructors?</strong></summary>
@@ -31,6 +29,7 @@
 <summary><strong>Interfaces and Abstract Contracts</strong></summary>
 
 - 🖧 **Interfaces:**
+
   - Define a contract structure without implementing functions.
   - Used for interoperability between different contracts.
   - Cannot have state variables or constructors.
@@ -85,29 +84,34 @@
 <summary><strong>Data Locations – Storage, Memory, and Stack</strong></summary>
 
 - 📌 **Storage:**
+
   - Data stored permanently on the blockchain.
   - Used for state variables.
   - Higher gas cost.
 
 - 🔧 **Memory:**
+
   - Temporary data storage used within functions.
   - Automatically deleted after function execution.
   - Used for dynamic data structures like arrays and structs.
 
 - 🏗 **Stack:**
+
   - Small temporary storage for variables.
   - Limited space, efficient for small calculations.
 
 - 🔥 **Example:**
+
   ```solidity
   contract DataLocations {
       string public storedData = "Blockchain"; // Stored permanently
-      
+
       function getMemoryData() public pure returns (string memory) {
           return "Temporary Data"; // Stored temporarily in memory
       }
   }
   ```
+
 - 💡 **Interactive Task:**
   - Write a function that takes an array as an argument and modifies it in `memory`.
 
@@ -117,4 +121,4 @@
 
 ---
 
-[Back to Main Index](index.md)
+🔙 [Back to Main Index](index.md)
