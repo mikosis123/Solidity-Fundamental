@@ -79,26 +79,7 @@
 
 </details>
 
-<details>
-<summary><strong>State Mutability Keywords (Modifiers)</strong></summary>
 
-- 🔍 **Understanding Function Mutability:**
-  - `pure` → Cannot read or modify state variables.
-  - `view` → Can read but not modify state variables.
-  - `payable` → Allows the function to accept Ether.
-- 🔥 **Example:**
-  ```solidity
-  contract MutabilityExample {
-      uint public x;
-      function setX(uint _x) public { x = _x; } // Modifies state
-      function getX() public view returns (uint) { return x; } // Reads state
-      function add(uint a, uint b) public pure returns (uint) { return a + b; } // No state access
-  }
-  ```
-- 💡 **Interactive Task:**
-  - Implement a function using all three mutability types and observe their effects.
-
-</details>
 
 <details>
 <summary><strong>Data Locations – Storage, Memory, and Stack</strong></summary>
