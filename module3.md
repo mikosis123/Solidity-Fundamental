@@ -56,7 +56,7 @@
 ### 🏗 Solidity Overview:
 
 - **Solidity** is the main programming language for writing Ethereum smart contracts.
-
+- **Solidity Documentation**: [Official Solidity Documentation](https://soliditylang.org/docs/)
 ### ⚙️ Key Features of Solidity:
 
 - Statically typed, contract-oriented.
