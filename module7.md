@@ -1,4 +1,4 @@
-## ** module 7 :Advanced Solidity Concepts: Inheritance, Typing & Encoding**
+# **module 7 :Advanced Solidity Concepts: Inheritance, Typing & Encoding**
 
 ---
 

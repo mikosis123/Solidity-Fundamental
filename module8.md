@@ -1,7 +1,8 @@
 
 # Module 8: Smart Contract Interaction & Transactions
 
-## **How to Call Contracts and Use the Fallback Function**
+<details>
+<summary><strong>How to Call Contracts and Use the Fallback Function</strong></summary>
 
 In Solidity, you can call functions from other contracts, enabling interaction between contracts on the Ethereum blockchain. A fallback function allows a contract to accept Ether and react when it receives transactions without matching function calls.
 
@@ -46,10 +47,10 @@ contract FallbackExample {
     }
 }
 ```
+</details>
 
----
-
-## **How to Send and Receive Ether**
+<details>
+<summary><strong>How to Send and Receive Ether</strong></summary>
 
 Sending and receiving Ether is an essential operation in Solidity. Contracts can receive Ether via the `receive` or `fallback` functions and send Ether using the `transfer` or `send` methods.
 
@@ -85,10 +86,10 @@ contract EtherSender {
     }
 }
 ```
+</details>
 
----
-
-## **Solidity Libraries**
+<details>
+<summary><strong>Solidity Libraries</strong></summary>
 
 Solidity libraries are reusable pieces of code that can be deployed and used by multiple contracts. They allow for efficient and gas-saving interactions by sharing common functionality.
 
@@ -111,10 +112,10 @@ contract Calculator {
     }
 }
 ```
+</details>
 
----
-
-## **Events and Logs in Solidity**
+<details>
+<summary><strong>Events and Logs in Solidity</strong></summary>
 
 Events are an essential way to log data on the blockchain. They allow external consumers (like DApps) to listen to specific events and react accordingly.
 
@@ -135,10 +136,10 @@ contract EventExample {
 ### **Listening to Events**
 
 Events are logged on the blockchain and can be tracked using tools like Web3.js or Ethers.js, which listen to contract events in real-time.
+</details>
 
----
-
-## **Time Logic in Solidity**
+<details>
+<summary><strong>Time Logic in Solidity</strong></summary>
 
 Solidity provides built-in functions to handle time and block-related data, such as block timestamps, block numbers, and gas usage.
 
@@ -180,16 +181,11 @@ contract TimedTransfer {
     }
 }
 ```
+</details>
 
----
 
-## **Interactive Tasks:**
-
-- **Task 1:** Create a contract that interacts with another contract by sending and receiving Ether using the `receive` and `fallback` functions.
-- **Task 2:** Write a contract that uses a library to perform arithmetic calculations and deploy it on Remix IDE.
-- **Task 3:** Implement a contract that emits events upon transfers and test it using Web3.js or Ethers.js to listen to these events.
-- **Task 4:** Build a contract that uses block timestamp to delay actions (e.g., releasing funds after a certain period).
 
 ---
 
 [Back to Main Index](index.md)
+```

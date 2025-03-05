@@ -11,7 +11,7 @@
 5. [Module 5: Contract Structure & State Management](module5.md)
 6. [Module 6: Solidity Data Types & Functions](module6.md)
 7. [Module 7: Advanced Solidity Concepts](module7.md)
-8. [Module 8: Smart Contract Interaction & Transactions](module7.md)
+8. [Module 8: Smart Contract Interaction & Transactions](module8.md)
 9. [module 9: conclusion](module9.md)
 ---
 

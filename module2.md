@@ -1,8 +1,7 @@
-# **module 2: Setting Up Remix, MetaMask & Exploring Etherscan**
+# **Module 2: Setting Up Remix, MetaMask & Exploring Etherscan**
 
----
-
-## **1. Installing & Using Remix**
+<details>
+<summary><strong>1. Installing & Using Remix</strong></summary>
 
 ### **What is Remix?**
 Remix is an online IDE for developing, deploying, and testing Ethereum smart contracts written in Solidity.
@@ -27,10 +26,10 @@ Remix is an online IDE for developing, deploying, and testing Ethereum smart con
    ```
 4. Click the **Solidity Compiler** tab and select **0.8.20**.
 5. Click **Compile MyContract.sol**.
+</details>
 
----
-
-## **2. Installing & Setting Up MetaMask**
+<details>
+<summary><strong>2. Installing & Setting Up MetaMask</strong></summary>
 
 ### **What is MetaMask?**
 MetaMask is a browser extension and mobile app that allows users to interact with the Ethereum blockchain.
@@ -53,10 +52,10 @@ MetaMask is a browser extension and mobile app that allows users to interact wit
 2. Under **Environment**, select **Injected Provider - MetaMask**.
 3. MetaMask will prompt you to **connect your wallet**.
 4. Approve the connection and choose an account.
+</details>
 
----
-
-## **3. Exploring Etherscan**
+<details>
+<summary><strong>3. Exploring Etherscan</strong></summary>
 
 ### **What is Etherscan?**
 Etherscan is a blockchain explorer that allows users to track Ethereum transactions, smart contracts, and wallet balances.
@@ -73,15 +72,18 @@ Etherscan is a blockchain explorer that allows users to track Ethereum transacti
    - **From & To addresses**
    - **Gas fee & Transaction cost**
    - **Block confirmation status**
+</details>
 
----
+<details>
+<summary><strong>4. Summary & Next Steps</strong></summary>
 
-## **4. Summary & Next Steps**
 ✅ **Remix** helps you write and test smart contracts.
 ✅ **MetaMask** allows you to interact with the blockchain.
 ✅ **Etherscan** helps you track transactions and verify smart contracts.
 
 ### **Next Lesson: Deploying Smart Contracts on Testnets!** 🚀
+
+</details>
 
 [Back to Main Index](index.md)
 

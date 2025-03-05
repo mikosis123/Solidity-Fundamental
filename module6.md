@@ -1,6 +1,6 @@
-## **Module 6: Solidity Data Types & Functions**
+# **Module 6: Solidity Data Types & Functions**
 
-# **Solidity: Typing, Data Structures, and Error Handling**
+**Solidity: Typing, Data Structures, and Error Handling**
 
 ---
 
